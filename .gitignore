@@ -1,4 +1,9 @@
 node_modules/
 .env
 .env.*
+!.env.example
 *.log
+
+# ignore file build dan macos related
+dist/
+.DS_Store
